@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.colors {
+  color: #3f6ca6;
+  color: #1b2b40;
+  color: #548dbf;
+  color: #111c26;
+  color: #358c5b;
+}
