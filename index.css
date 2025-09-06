@@ -3,13 +3,32 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+  color: azure;
   font-optical-sizing: auto;
+}
+
+body {
+    margin: 0px 10vw;
+    background-color: #131416;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 0px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    
 }
 
 .colors {
   color: #3f6ca6;
   color: #1b2b40;
   color: #548dbf;
-  color: #111c26;
+  color: #131416;
   color: #358c5b;
 }
