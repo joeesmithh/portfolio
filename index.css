@@ -13,6 +13,10 @@ body {
     background-color: #131416;
 }
 
+.text {
+    
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,9 +25,8 @@ body {
     font-size: 32px;
 }
 
-.header a {
+a {
     text-decoration: none;
-    
 }
 
 .container-hero {
@@ -32,12 +35,41 @@ body {
 
 .announcement {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 800;
     text-align: justify;
 }
 
 .container-hero .text {
     font-size: 58px;
+    text-align: justify;
+}
+
+.container-links {
+    padding: 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.link {
+    /* border: 1px solid azure; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* flex: 1; */
+    gap: .5vw;
+    padding: .5vw;
+}
+
+.link .text {
+    /* text-align: center; */
+    flex: 1;
+    font-weight: 800;
+}
+
+.link img {
+    width: 32px;
+    height: 32px;
 }
 
 .colors {
